@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.section1 {
+  background: #455A64;
+  padding-top: 200px;
+}
+
+.section2 {
+  background: #CFD8DC;
+}
+
+.section1, .section2 {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+img {
+  height: 50px;
+  width:90px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 4em;
+  margin: 0 0 63px 0;
+  font-weight: 800;
+  text-align: center;
+}
+
+.web-title, .web-url {
+  height: 45px;
+  width: 415px;
+  font-size: 2em;
+}
+
+.web-title {
+  margin: 0 0 53px 0;
+}
+
+::placeholder {
+  color: #D8D8D8;
+  padding: 10px;
+  border: #fff;;
+}
+
+.web-url {
+  margin: 0 0 55px 0;
+}
+
+article {
+  margin: 0 auto;
+  clear: both;
+  overflow: auto;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+li {
+  border: 1px solid #607D8B;
+  margin: 20px;
+  list-style: none;
+  height: 150px;
+  background: #fff;
+  color: #455A64;
+}
+
+a {
+  color: #607D8B;
+  font-weight: 400;
+}
+
+a:hover {
+  text-decoration-color: #FFC107;
+  font-weight: 800;
+}
+
+hr {
+  margin: 10px 10px 10px 10px; */
+  color: #CFD8DC;
+  /* width: 95%; */
+  /* text-align: center; */
+}
+
+h2 {
+  text-align: left;
+  margin: 10px;
+}
+
+h3{
+  text-align: left;
+  margin: 10px;
+}
+
+.delete {
+  float: right;
+}
+
+.submit-btn {
+  width: 415px;
+  height: 40px;
+  background: #FFC107;
+  color: #fff;
+  border-style: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background: #FFD773;
+  color: #fff;
+  border-style: none;
+}
+
+.mark-as-read {
+  float: left;
+  margin: 10px;
+  font-size: .8em;
+  border-style: none;
+  color: #455164;
+  outline: none;
+}
+
+.card-btn:hover {
+  text-decoration: underline purple;
+  font-weight: 800;
+}
+
+.delete {
+  margin: 10px;
+  font-size: .8em;
+  border: none;
+  color: #455164;
+  outline: none;
+}
+
+.read {
+  text-decoration: none;
+  color: #F05A28;
+}
+
+button:disabled {
+  opacity: 0.65;
+  pointer-events: none
+}
