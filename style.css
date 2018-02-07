@@ -13,6 +13,7 @@
 .section2 {
   background: #CFD8DC;
   overflow: hidden;
+  overflow-y: scroll;
 }
 
 .section1, .section2 {
