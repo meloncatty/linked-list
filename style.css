@@ -132,12 +132,13 @@ h3{
   margin: 10px;
   font-size: .8em;
   border-style: none;
-  color: #455164;
+  color: #455A64;
   outline: none;
 }
 
-.card-btn:hover {
-  text-decoration: underline #455A64;
+.mark-as-read:hover {
+  text-decoration: underline;
+  text-decoration-color: #fcc107;
   font-weight: 800;
 }
 
@@ -160,7 +161,9 @@ button:disabled {
 }
 
 .total-bookmarks {
-  float: left;
+  /* float: left; */
+  margin: 0 0 53px 0;
+  position: absolute;
 }
 
 @-ms-viewport{
@@ -172,16 +175,13 @@ button:disabled {
     display: block;
     width: 100%;
     position: relative;
-    overflow: none;
+    overflow: auto;
   }
   .section2 {
     float: left;
     width: 100%;
   }
   .web-title, .web-url, .submit-btn {
-    width: 60%;
-  }
-  h1 {
-    font-size: 3em;
+    width: 50%;
   }
 }
