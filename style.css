@@ -12,6 +12,7 @@
 
 .section2 {
   background: #CFD8DC;
+  overflow: hidden;
 }
 
 .section1, .section2 {
@@ -57,7 +58,7 @@ h1 {
 
 article {
   margin: 0 auto;
-  clear: both;
+  /* clear: both; */
   overflow: auto;
   position: relative;
   width: 100vw;
@@ -135,7 +136,7 @@ h3{
 }
 
 .card-btn:hover {
-  text-decoration: underline purple;
+  text-decoration: underline #455A64;
   font-weight: 800;
 }
 
@@ -154,5 +155,32 @@ h3{
 
 button:disabled {
   opacity: 0.65;
-  pointer-events: none
+  pointer-events: none;
+}
+
+.total-bookmarks {
+  float: left;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@media screen and (max-width: 890px) {
+  .section1 {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: none;
+  }
+  .section2 {
+    float: left;
+    width: 100%;
+  }
+  .web-title, .web-url, .submit-btn {
+    width: 60%;
+  }
+  h1 {
+    font-size: 3em;
+  }
 }

@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css"></link>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <script>window.jQuery || document.write('<script src="script.js"><\/script>')</script> -->
   </head>
   <body>
@@ -13,10 +14,15 @@
       <section class="section1">
         <h1>Linked<img src="images/linked-list-logo.svg">List</h1>
         <form>
+          <p class='title-error'></p>
           <input type="text" placeholder="Website Title" class="web-title"></input>
+          <p class='url-error'></p>
           <input type="text" placeholder="Website URL" class="web-url"></input>
           <button type="submit" class="submit-btn" disabled>Enter</button>
         </form>
+        <p class = "total-bookmarks"></p>
+        <p class = "total-read"></p>
+        <p class = "total-unread"></p>
       </section>
       <section class="section2">
         <ul>
