@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="em">
+  <!DOCTYPE html>
+  <html lang="em">
   <head>
     <meta charset="utf-8">
     <title>Linked List</title>
@@ -7,36 +7,28 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script>window.jQuery || document.write('<script src="script.js"><\/script>')</script> -->
   </head>
   <body>
     <article>
       <section class="section1">
-        <h1>Linked<img src="images/linked-list-logo.svg">List</h1>
-        <form>
-          <p class='title-error'></p>
-          <input type="text" placeholder="Website Title" class="web-title"></input>
-          <p class='url-error'></p>
-          <input type="text" placeholder="Website URL" class="web-url"></input>
-          <button type="submit" class="submit-btn" disabled>Enter</button>
-        </form>
-        <p class="total-bookmarks"></p>
-        <p class="total-read"></p>
-        <p class="total-unread"></p>
+        <section class="head-form">
+          <h1>Linked<img src="images/linked-list-logo.svg" alt="Chainlink">List</h1>
+          <form>
+            <input type="text" placeholder="Website Title" class="web-title"></input>
+            <input type="text" placeholder="Website URL" class="web-url"></input>
+            <button type="submit" class="submit-btn" disabled>Enter</button>
+          </form>
+        </section>
+        <section class="display-totals">
+        <span class="total-bookmarks">Total Bookmarks</span>
+        <span class="total-read">Total Read</span>
+        <span class="total-unread">Total Unread</span>
+      </section>
       </section>
       <section class="section2">
-        <ul>
-          <!-- <li>
-            <h2>The Website Title</h2>
-            <hr><h3>
-              <a href="www.thewebsiteurl.com">www.thewebsiteurl.com</a>
-            </h3><hr>
-            <button type="submit" class ="mark-as-read">Read</button>
-            <button type ="submit" class ="delete">Delete</button>
-          </li> -->
-        </ul>
-      </section>
-    </article>
-    <script src="script.js"></script>
+        <ul></ul>
+  </section>
+  </article>
+  <script src="script.js"></script>
   </body>
-</html>
+  </html>

@@ -19,15 +19,10 @@ $(document).ready(function(){
   function countUnread() {
     num1 = ($('.bookmarks').length);
     num2 = ($('.read').length);
-    console.log(num2);
     return num1 - num2;
   }
-  // var count = 0;
   $('.submit-btn').on('keypress click', function(event) {
-    // count++;
-    //if(event.which === 13 || event.type === 'click'){
       event.preventDefault();
-      // $('.total-unread').html(countUnread());
       var webTitle = $('.web-title').val();
       var webUrl = $('.web-url').val();
       if(!is_valid_url(webUrl)){
@@ -41,7 +36,6 @@ $(document).ready(function(){
         <button class ="mark-as-read">Read</button><button class ="delete">Delete</button></li>`);
       }
       $('form').children('input').val('');
-    //}
   });
   $('ul').on('click', '.mark-as-read', function(){
     $(this).toggleClass('read');
@@ -50,8 +44,6 @@ $(document).ready(function(){
   })
   $('ul').on('click', '.delete', function() {
     $(this).parent().remove();
-    // count--;
-    // console.log(count);
     $('.total-bookmarks').html($('.bookmarks').length);
     $('.total-read').html($('.read').length);
   });
